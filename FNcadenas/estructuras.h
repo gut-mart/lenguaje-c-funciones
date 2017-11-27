@@ -1,6 +1,6 @@
-typedef struct StrInformacion{
+ typedef struct {
+	int  nota;
+	char nombre[40];
+	int  edad;
 	
-	char * Puntero;
-     int Longitud;
-	
-}str_info;
+ }alumno;

@@ -1,5 +1,5 @@
-typedef struct {
-	char * NombreFuncion[30];
-	char * Puntero;
+typedef struct alumno{
+	char  nombre[20];
+	int nota;
 	
-}str_info;
+};
