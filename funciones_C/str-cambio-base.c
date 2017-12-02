@@ -1,32 +1,32 @@
-#ifndef STRCAMBIOBASE_H
-#define STRCAMBIOBASE_H
 
 
-//char *strcambiobase(int,int);
+
+
 int resto_division(int);
 int dato_division(int);
 
-char *strcambiobase(int valor_dato ,int valor_base )
+char *strcambiobase(int valor_dato ,int valor_base)
 {
-	char *direccion=NULL;
-	int dato=valor_dato;
-	int base=valor_base;
-	int resto =dato;
-	char *cadena=NULL;
-	int contador=0;
+	char *cadena=(char *)malloc(sizeof(char)*0);
+	     *(cadena)='\0';
+	int   dato=valor_dato;
+	int   base=valor_base;
+	int   resto =dato;
+	
+	int   contador=0;
 	
 	while(dato>=base)
 	{
 		resto=dato%base;
 		dato=dato/base;
-		cadena=stradd(cadena,(char)resto_division(resto));
+		cadena=straddchar(cadena,(char)resto_division(resto));
 		contador++;
-				
+		
 	}
 	
-	   cadena=stradd(cadena,(char)dato_division(dato));
-	   direccion=strinv(cadena);
-	return direccion;
+	cadena=straddchar(cadena,(char)dato_division(dato));
+	cadena=strinv(cadena);
+	return cadena;
 }
 int resto_division(int resto)
 {
@@ -52,4 +52,3 @@ int dato_division(int dato)
 	}
 	return 0;
 }
-#endif
