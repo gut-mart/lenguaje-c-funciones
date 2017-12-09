@@ -5,6 +5,8 @@
 #ifndef STRCLONE_H
 #define STRCLONE_H
 
+
+
 char * strclone(const char chr, const unsigned long int num_chr);
 
 // char * strclone(...,...) esta funcion  crea una cadena de caracteres

@@ -1,6 +1,7 @@
 
-
-
+#include <stdlib.h>
+#include "str-add-char.h"
+#include "str-inv.h"
 
 int resto_division(int);
 int dato_division(int);

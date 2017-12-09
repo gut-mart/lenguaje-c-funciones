@@ -1,3 +1,9 @@
+
+
+#include "stdlib.h"
+#include "estructura.h"
+
+
 char * strclone(const char chr, const unsigned long int num_chr)
 {
 	
@@ -9,5 +15,10 @@ char * strclone(const char chr, const unsigned long int num_chr)
 	{
 		*(puntero_aux+x)=chr;
 	}
+	
+	
+	
+	
+	
 	return puntero_aux;	
 }

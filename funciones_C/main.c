@@ -4,11 +4,15 @@
 #include "headers.h"
 
 
-int main(){
+
+ 
+
+int main()
+{
+	iniciarvector();
+	visualizar_historia();	
 	
 	
+	return 0;	  
 	
-	char * cambio=strcambiobase(16384,16);
-	
-	strinfo(cambio);
 }

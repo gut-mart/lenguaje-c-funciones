@@ -1,6 +1,6 @@
 
-
-
+#include <stdlib.h>
+#include "str-count.h"
 
 char *stradd(char *v1,const char *v2)
 {

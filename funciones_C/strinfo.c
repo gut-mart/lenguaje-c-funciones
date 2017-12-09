@@ -1,3 +1,7 @@
+
+
+#include <stdio.h>
+
 void strinfo(const char *p) 
 {
 	unsigned long int contador=0;

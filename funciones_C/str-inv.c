@@ -1,7 +1,7 @@
 
 
-
-
+#include <stdlib.h>
+#include "str-count.h"
 
 
 char *strinv(char *v)
