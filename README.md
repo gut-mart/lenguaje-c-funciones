@@ -1,2 +1,4 @@
 # lenguaje-c-funciones
-Conjunto de funciones  en lenguaje-C
+
+**Conjunto de funciones que he elaborado contando únicamente con la biblioteca stdio.h**
+
